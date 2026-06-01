@@ -42,3 +42,10 @@ html {
   background: #555;
 }
 */
+
+
+@theme {
+  --color-brand: #FF6B35;
+  --color-dark-bg: #0F0F12;
+  --color-card-bg: #18181C;
+}

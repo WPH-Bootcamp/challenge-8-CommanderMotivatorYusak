@@ -126,3 +126,15 @@ export type ButtonVariant = 'primary' | 'secondary' | 'outline';
  * 5. Consider creating separate files jika types terlalu banyak
  *    Example: types/components.ts, types/data.ts, etc.
  */
+
+export interface AccordionItem {
+  id: number;
+  question: string;
+  answer: string;
+}
+
+export interface ServiceCardProps {
+  icon: string;
+  title: string;
+  description: string;
+}
